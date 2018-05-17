@@ -1,0 +1,47 @@
+$theme-color:#2ca532;
+*{
+   margin: 0px;
+   padding: 0px;
+}
+body{
+    color:#111;
+}
+a{
+   text-decoration: none;
+   color:#111;
+}
+li{
+ list-style:none;
+}
+.page{
+    padding-top:47px;
+}
+.card{
+    margin: 0 18px;
+}
+
+.section-content{
+    overflow: hidden;
+}
+
+.quick-nav{
+    font-size: 15px;
+    margin-top: 20px;
+    padding-top: 4px;
+    overflow: hidden;
+    li{
+        float: left;
+        padding:3px;
+        box-sizing:border-box;
+        width:50%;
+        display: list-item;
+    }
+    a{
+        text-align: center;
+        display: block;
+        max-width: 100%;
+        color:#494949;
+        padding: 12px 0;
+        background-color: #f6f6f6;
+    }
+}
