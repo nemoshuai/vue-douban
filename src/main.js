@@ -9,6 +9,7 @@ import 'element-ui/lib/theme-chalk/index.css';
 Vue.prototype.$http = axios
 Vue.config.productionTip = false
 /* eslint-disable no-new */
+//try
 new Vue({
   el: '#app',
   router,
