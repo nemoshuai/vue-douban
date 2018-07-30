@@ -19,7 +19,7 @@
                 <router-link :to="{name:'group'}" style="color: #2ab8cc">小组</router-link>
              </li>
            </ul>
-           <span></span>
+           <span @click="openTalion"></span>
          </nav>
       </div>
       <slot></slot>
